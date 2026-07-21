@@ -4,13 +4,7 @@
 
 <div align="center">
 
-<p align="center">
-  <img src="assets/images/logo.png" alt="QUG Logo" width="180">
-</p>
-
 # 🛡️ Quantum USB Guardian (QUG)
-
-### Advanced USB Malware Detection, File Recovery & Digital Forensics Suite
 
 A lightweight Windows Endpoint Security solution built with **PowerShell**, **WPF**, and **Microsoft Defender**.
 
@@ -22,8 +16,8 @@ A lightweight Windows Endpoint Security solution built with **PowerShell**, **WP
   <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="License">
 </p>
 
-### Made By **Abdullah_16**
-
+### Made By **Abdullah Ibn Hasan Ibn Sabit Ali Sarker (Siam)**
+### **CySE-UFTB**
 *Cybersecurity • Digital Forensics • Windows Endpoint Protection*
 
 </div>
