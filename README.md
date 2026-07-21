@@ -14,15 +14,15 @@ A lightweight Windows Endpoint Security solution built with **PowerShell**, **WP
   <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="License">
 </p>
 
-### ❤️ Made By **Abdullah_16**
+### Made By **Abdullah_16**
 
 *Cybersecurity • Digital Forensics • Windows Endpoint Protection*
 
 </div>
 
----
 
-# 📌 Overview
+
+#  Overview
 
 **Quantum USB Guardian (QUG)** is a lightweight Windows-based USB security utility developed to detect, analyze, and remove common USB-borne threats while preserving legitimate user files.
 
@@ -30,9 +30,9 @@ The project focuses on protecting removable storage devices against shortcut vir
 
 Designed for students, cybersecurity enthusiasts, and IT professionals, Quantum USB Guardian simplifies USB incident response through an intuitive WPF dashboard while providing detailed forensic reports for further analysis.
 
----
 
-# 🎯 Objectives
+
+#  Objectives
 
 - Detect malicious files commonly found on infected USB drives.
 - Recover files hidden by malware.
@@ -43,49 +43,51 @@ Designed for students, cybersecurity enthusiasts, and IT professionals, Quantum 
 
 ---
 
-# ✨ Key Highlights
+#  Key Highlights
 
-- 🔌 Automatic USB Device Detection
-- 📂 Hidden File Recovery
-- 🔍 Heuristic Threat Scanning
-- 🛡️ Microsoft Defender Integration
-- 📊 HTML Forensic Report Generation
-- 🔐 SHA-256 File Hashing
-- ⚠️ Safe File Removal Confirmation
-- 💻 Modern PowerShell WPF Dashboard
+- Hidden File Recovery
+- Heuristic Threat Scanning
+- Microsoft Defender Integration
+- HTML Forensic Report Generation
+- SHA-256 File Hashing
+- Safe File Removal Confirmation
+- Modern PowerShell WPF Dashboard
 
----
 
-# 📚 Table of Contents
+
+# Table of Contents
 
 - [Overview](#-overview)
 - [Objectives](#-objectives)
 - [Key Highlights](#-key-highlights)
-- Features
-- System Architecture
-- Workflow
-- Project Structure
-- Installation
-- Usage
-- Screenshots
-- Forensic Reports
-- Roadmap
-- Requirements
-- Future Improvements
-- License
-- Author
-- Disclaimer
+- [Features](#-features)
+- [System Architecture](#️-system-architecture)
+- [Workflow](#-workflow)
+- [Project Structure](#-project-structure)
+- [Installation](#️-installation)
+- [Usage](#-usage)
+- [Screenshots](#-screenshots)
+- [Forensic Report](#-forensic-report)
+- [Roadmap](#️-roadmap)
+- [System Requirements](#-system-requirements)
+- [Current Limitations](#️-current-limitations)
+- [Future Improvements](#-future-improvements)
+- [Contributing](#-contributing)
+- [Security](#-security)
+- [License](#-license)
+- [Author](#-author)
+- [Acknowledgements](#-acknowledgements)
+- [Disclaimer](#️-disclaimer)
 
 ---
 
 > **Current Release:** **Version 1.0**  
 > **Project Status:** ✅ Stable Development Release
 >
-> # 🚀 Features
+> # Features
 
 | Feature | Description |
 |----------|-------------|
-| 🔌 USB Device Detection | Automatically detects connected removable storage devices. |
 | 📂 Hidden File Recovery | Restores files hidden by malware using Windows attribute recovery. |
 | 🔍 Heuristic Threat Scanner | Identifies suspicious scripts, shortcuts, and potentially malicious executables. |
 | ⚠️ Shortcut Virus Detection | Detects `.lnk` shortcut malware and related malicious payloads. |
@@ -98,7 +100,7 @@ Designed for students, cybersecurity enthusiasts, and IT professionals, Quantum 
 
 ---
 
-# 🏗️ System Architecture
+#  System Architecture
 
 ```text
                     +--------------------------------+
@@ -139,7 +141,7 @@ Designed for students, cybersecurity enthusiasts, and IT professionals, Quantum 
 
 ---
 
-# 🔄 Workflow
+#  Workflow
 
 ```text
 USB Device Connected
@@ -176,7 +178,7 @@ Scan Completed
 
 ---
 
-# 📂 Project Structure
+#  Project Structure
 
 ```text
 Quantum-USB-Guardian/
@@ -208,7 +210,7 @@ Quantum-USB-Guardian/
 
 ---
 
-# ⚙️ Core Modules
+#  Core Modules
 
 | Module | Responsibility |
 |---------|----------------|
@@ -221,7 +223,7 @@ Quantum-USB-Guardian/
 
 ---
 
-# 🛠️ Technologies Used
+#  Technologies Used
 
 | Technology | Purpose |
 |------------|---------|
@@ -234,7 +236,7 @@ Quantum-USB-Guardian/
 
 ---
 
-# ⚙️ Installation
+#  Installation
 
 ## Requirements
 
@@ -267,7 +269,7 @@ Run the application:
 
 ---
 
-# 🚀 Quick Start
+#  Quick Start
 
 1. Connect a USB flash drive.
 2. Launch **Quantum USB Guardian**.
@@ -280,7 +282,7 @@ Run the application:
 
 ---
 
-# 📖 Usage
+#  Usage
 
 ### Step 1 — Connect USB Device
 
@@ -328,7 +330,7 @@ After the scan completes, an HTML forensic report is generated automatically.
 
 ---
 
-# 📊 Example Scan Process
+#  Example Scan Process
 
 ```text
 [✓] USB Device Detected
@@ -364,7 +366,7 @@ Completed Successfully
 
 ---
 
-# 📄 Forensic Report
+#  Forensic Report
 
 Each completed scan generates an HTML report containing:
 
@@ -380,7 +382,7 @@ Each completed scan generates an HTML report containing:
 
 ---
 
-# 📷 Screenshots
+#  Screenshots
 
 > Screenshots will be added in future updates.
 
@@ -408,7 +410,7 @@ docs/screenshots/report.png
 
 ---
 
-# 🗺️ Roadmap
+#  Roadmap
 
 ## Version 1.0
 
@@ -437,7 +439,7 @@ docs/screenshots/report.png
 
 ---
 
-# 💻 System Requirements
+#  System Requirements
 
 | Requirement | Supported |
 |------------|-----------|
@@ -449,7 +451,7 @@ docs/screenshots/report.png
 
 ---
 
-# ⚠️ Current Limitations
+#  Current Limitations
 
 While Quantum USB Guardian provides an effective defense against common USB-borne threats, the current version has several limitations:
 
@@ -462,7 +464,7 @@ While Quantum USB Guardian provides an effective defense against common USB-born
 
 ---
 
-# 🚀 Future Improvements
+#  Future Improvements
 
 The following enhancements are planned for future releases:
 
@@ -483,7 +485,7 @@ The following enhancements are planned for future releases:
 
 ---
 
-# 🤝 Contributing
+#  Contributing
 
 Contributions are welcome!
 
@@ -499,13 +501,13 @@ Suggestions, bug reports, and feature requests are always appreciated.
 
 ---
 
-# 🔒 Security
+#  Security
 
 If you discover a security issue or vulnerability related to this project, please open a GitHub Issue or submit a responsible disclosure with detailed reproduction steps.
 
 ---
 
-# 📜 License
+#  License
 
 This project is licensed under the **MIT License**.
 
@@ -513,13 +515,13 @@ See the **LICENSE** file for additional information.
 
 ---
 
-# 👨‍💻 Author
+#  Author
 
 <div align="center">
 
-## Abdullah Ibn Hasan (Siam)
+## Abdullah Ibn Hasan 
 
-### ❤️ Made By **Abdullah_16**
+### Department Of Cyber Security Engineering, UFTB
 
 Cybersecurity Enthusiast • Windows Security Research • Digital Forensics
 
@@ -527,7 +529,7 @@ Cybersecurity Enthusiast • Windows Security Research • Digital Forensics
 
 ---
 
-# 🙏 Acknowledgements
+#  Acknowledgements
 
 Special thanks to:
 
@@ -539,7 +541,7 @@ Special thanks to:
 
 ---
 
-# ⚖️ Disclaimer
+#  Disclaimer
 
 Quantum USB Guardian (QUG) is intended for **educational, defensive security, malware analysis, and digital forensic purposes only**.
 
@@ -553,7 +555,7 @@ Always test the application in a controlled environment before deploying it on p
 
 <div align="center">
 
-## ⭐ If you found this project useful, consider giving it a Star!
+##  If you found this project useful, consider giving it a Star!
 
 ### Thank you for visiting the Quantum USB Guardian repository.
 
