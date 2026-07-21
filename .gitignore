@@ -1,0 +1,27 @@
+# Visual Studio Code
+.vscode/
+
+# Visual Studio
+.vs/
+
+# Build
+bin/
+obj/
+build/
+
+# Logs
+*.log
+
+# Cache
+*.cache
+*.tmp
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# PowerShell
+*.ps1xml
+
+# Reports (optional)
+*.bak
