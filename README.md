@@ -113,7 +113,7 @@ Designed for students, cybersecurity enthusiasts, and IT professionals, Quantum 
 
 ## Threat Detection
 
-![Threat Detection](docs/screenshots/threat_detection.png)
+![Threat Detection](docs/screenshots/scan.png)
 
 ## HTML Report
 
