@@ -1,0 +1,61 @@
+================================================================================
+                       PROJECT TECHNICAL REPORT
+================================================================================
+Project Title   : Quantum USB Guardian (QUG)
+Developer       : Abdullah Ibn Hasan (Siam)
+Architecture    : Windows PowerShell (v5.1/7.x) & WPF/XAML Dashboard
+Category        : Cybersecurity / Endpoint Storage Protection & Incident Response
+================================================================================
+
+1. EXECUTIVE SUMMARY
+--------------------------------------------------------------------------------
+Quantum USB Guardian (QUG) is an advanced Endpoint Threat Detection and USB Security 
+Suite developed using PowerShell and WPF (Windows Presentation Foundation). The tool 
+is designed to protect Windows environments against autorun exploits, shortcut 
+viruses (.lnk malware), malicious script execution, and attribute-hidden threats 
+commonly spread via removable storage devices.
+
+2. KEY FEATURES & CAPABILITIES
+--------------------------------------------------------------------------------
+* Automated USB Drive Discovery: Dynamically enumerates connected removable drives, 
+  extracting filesystem metadata, drive letters, volume labels, and volume capacity.
+* Attribute & Hidden File Recovery: Restores system/hidden file attributes altered 
+  by malware through direct interaction with low-level file system utilities.
+* Heuristic Malware & Threat Engine: Scans target media for suspicious extensions 
+  (.vbs, .bat, .cmd, .js, .ps1, .hta, .wsf, .scr, .dll, autorun.inf).
+* Smart Executable Inspection: Distinguishes legitimate binaries from malicious 
+  payloads by checking system/hidden attributes and file positioning.
+* User-Centric Confirmation Prompting: Implements a double-confirmation UI modal 
+  before file purge operations, preventing accidental deletion of vital data.
+* Antivirus Engine Integration: Interfaces with Microsoft Defender Engine (MpCmdRun) 
+  for secondary deep-scan analysis.
+* Forensic Audit & HTML Reporting: Generates automated HTML security audit logs 
+  calculating a dynamic Risk Score (0–100) alongside file SHA-256 cryptographic hashes.
+
+3. SYSTEM ARCHITECTURE & WORKFLOW
+--------------------------------------------------------------------------------
+[ USB Drive Inserted ] ──> [ Drive Detection ]
+                                 │
+                                 ▼
+                     [ File Recovery & Unhide ]
+                                 │
+                                 ▼
+                    [ Heuristic Threat Engine ]
+                                 │
+                                 ▼
+                   [ Interactive Delete Prompt ] ──(No)──> [ Preserve Files ]
+                                 │ (Yes)
+                                 ▼
+                        [ Purge Malware ]
+                                 │
+                                 ▼
+                    [ Microsoft Defender Scan ]
+                                 │
+                                 ▼
+               [ Risk Score & Forensic HTML Report ]
+
+4. CONCLUSION
+--------------------------------------------------------------------------------
+QUG balances aggressive USB malware mitigation with robust data preservation, 
+providing a lightweight, GUI-driven endpoint security solution for cyber defense 
+and digital forensics operations.
