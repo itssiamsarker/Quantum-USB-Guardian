@@ -1,4 +1,12 @@
+<p align="center">
+  <img src="assets/images/banner.png" alt="Quantum USB Guardian Banner" width="100%">
+</p>
+
 <div align="center">
+
+<p align="center">
+  <img src="assets/images/logo.png" alt="QUG Logo" width="180">
+</p>
 
 # 🛡️ Quantum USB Guardian (QUG)
 
@@ -99,6 +107,18 @@ Designed for students, cybersecurity enthusiasts, and IT professionals, Quantum 
 | 🖥️ WPF Dashboard | Modern graphical interface built with Windows Presentation Foundation (WPF). |
 
 ---
+## Dashboard
+
+![Dashboard](docs/screenshots/dashboard.png)
+
+## Threat Detection
+
+![Threat Detection](docs/screenshots/threat_detection.png)
+
+## HTML Report
+
+![Report](docs/screenshots/report.png)
+
 
 #  System Architecture
 
